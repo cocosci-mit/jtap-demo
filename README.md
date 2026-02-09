@@ -12,13 +12,10 @@ To run `jtap`, you must use a machine with at least a single NVIDIA GPU (minimum
 
 #### Setup
 
-Follow the following code block to get `jtap` running on your machine.
+Follow the following code block to get `jtap` running on your machine. You will need [uv](https://docs.astral.sh/uv/) installed.
 
 ```bash
-conda create -n jtap python=3.11
-conda activate jtap
-pip install -r requirements.txt
-pip install -e .
+uv sync
 ```
 
 ## Reproducing CogSci 2025 Results
